@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz Master</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-box">
+        <div class="quiz-header">
+            <div class="timer">Time Left: <span id="time-left">15</span>s</div>
+            <div class="score-display">Score: <span id="current-score">0</span></div>
+        </div>
+
+        <div id="quiz-content">
+            <h2 id="question-text">Question Loading...</h2>
+            <div id="answer-options" class="options-grid"></div>
+        </div>
+
+        <button id="next-btn" class="hidden">Next Question</button>
+
+        <div id="result-screen" class="hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="final-stat"></p>
+            <button onclick="location.reload()">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

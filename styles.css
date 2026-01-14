@@ -1,0 +1,69 @@
+:root {
+    --primary: #007bff;
+    --success: #28a745;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-box {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.options-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px;
+    border: 2px solid var(--primary);
+    background: white;
+    color: var(--primary);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover:not([disabled]) {
+    background: var(--primary);
+    color: white;
+}
+
+button:disabled { cursor: not-allowed; }
+
+#next-btn {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+}
+
+.hidden { display: none; }
+
+/* Feedback Classes */
+.correct { background-color: var(--success) !important; color: white !important; border-color: var(--success) !important; }
+.wrong { background-color: var(--danger) !important; color: white !important; border-color: var(--danger) !important; }
