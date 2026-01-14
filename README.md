@@ -4,8 +4,7 @@
 A sleek, responsive quiz application that tests web development knowledge. This project demonstrates my ability to handle **DOM manipulation**, **asynchronous timers**, and **state management** using Vanilla JavaScript.
 
 ## 🚀 Live Demo
-[Click here to play the quiz](https://github.com/michelleanyango55-source/Javascript-Quiz-App)
-
+[Click here to play the quiz]([https://github.com/michelleanyango55-source/Javascript-Quiz-App])
 ## ✨ Key Features
 * **Countdown Timer:** Users have 15 seconds per question.
 * **Dynamic Feedback:** Buttons change color (Green/Red) based on the user's choice.
